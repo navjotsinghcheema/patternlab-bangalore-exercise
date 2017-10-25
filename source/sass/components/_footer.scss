@@ -1,0 +1,31 @@
+/*------------------------------------*\
+    #FOOTER
+\*------------------------------------*/
+
+/**
+ * Footer
+ */
+.c-footer {
+  background: $color-brand-green-dark;
+  clear: both;
+  color: $color-white;
+  line-height: 1.2;
+  overflow: hidden;
+  padding: 1em 0;
+}
+
+/**
+ * Footer nav
+ */
+.c-footer__info {
+  max-width: 40em;
+	
+  a {
+    color: $color-gray-15;
+    text-decoration: underline;
+		
+    &:hover, &:focus {
+      text-decoration: none;
+    }
+  }
+}

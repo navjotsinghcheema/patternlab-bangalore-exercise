@@ -1,0 +1,18 @@
+/*------------------------------------*\
+    #LINKS
+\*------------------------------------*/
+
+/**
+ * Links
+ */
+a {
+  color: $color-gray-50;
+  outline: 0;
+  text-decoration: none;
+  transition: all $anim-speed-quick $anim-ease;
+
+  &:hover,
+  &:focus {
+    color: $color-gray-73;
+  }
+}

@@ -1,0 +1,62 @@
+/*------------------------------------*\
+    #FEEDBACK
+\*------------------------------------*/
+
+/**
+ * 1) Feedback consists of components that give information back to the user. Examples include progress bars, progress wheels, etc.
+ */
+
+
+/**
+ * Progress bar
+ */
+.c-progress {
+  appearance: none;
+  background: #cdcaa2;
+  background-size: auto;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: $border-radius;
+  height: 0.5rem;
+  margin-bottom: 1em;
+  max-width: 300px;
+  width: 100%;
+}
+
+.c-progress::-moz-progress-bar {
+  background-color: #f00;
+  background-image: linear-gradient(to right, red, #f06d06, rgb(255, 255, 0), green);
+  background-size: 300px 50px;
+  border-radius: $border-radius;
+}
+
+.c-progress::-webkit-progress-value {
+  background-color: #f00;
+  background-image: linear-gradient(to right, red, #f06d06, rgb(255, 255, 0), green);
+  background-size: 300px 50px;
+  border-radius: $border-radius;
+}
+
+
+progress[value]::-webkit-progress-bar {
+  border-radius: $border-radius;
+}
+
+.anim::-moz-progress-bar {
+  -moz-transition: width 4s ease;
+}
+
+.anim::-webkit-progress-value {
+  transition: width 4s ease;
+}
+
+.c-progress.start::-moz-progress-bar {
+  background: #cdcaa2 !important;
+  width: 0% !important;
+
+}
+
+.c-progress.start::-webkit-progress-value {
+  background: #cdcaa2 !important;
+  width: 0% !important;
+
+}
