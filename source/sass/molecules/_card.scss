@@ -1,0 +1,40 @@
+.card {
+  margin-bottom: $vertical-space;
+  position: relative;
+
+  &__header {
+    margin-bottom: $vertical-space / 2;
+    position: relative;
+  }
+
+  &__title {
+    color: $white;
+    display: block;
+    font-size: 2em;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+  }
+
+  &__image {
+    display: block;
+    width: 100%;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  li {
+    list-style-type: none;
+    margin: 0;
+  }
+
+  address {
+    font-style: normal;
+  }
+
+}

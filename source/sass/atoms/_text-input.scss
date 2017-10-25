@@ -1,11 +1,15 @@
 .text-input {
-  margin-bottom: 1em;
+  margin-bottom: $vertical-space;
 
   input {
     border: 0;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid $black;
     height: 2em;
     line-height: 2em;
     padding: 0 0.5em;
+  }
+
+  .error {
+    color: $red;
   }
 }

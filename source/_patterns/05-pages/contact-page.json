@@ -1,0 +1,36 @@
+{
+  "addresses": [
+    {
+      "card": {
+        "title": "Bangalore",
+        "address": "Tower 23, 3rd floor<br>No 72, Keonics Electronic City,<br>Hosur Road,<br>Bangalore - 560100",
+        "src": "http://17776-presscdn-0-6.pagely.netdna-cdn.com/wp-content/uploads/2016/08/Bangalore_thumb.jpg",
+        "alt": "Photo of Bangalore"
+      }
+    },
+    {
+      "card": {
+        "title": "London",
+        "address": "186 City Road",
+        "src": "http://17776-presscdn-0-6.pagely.netdna-cdn.com/wp-content/uploads/2016/08/london.png",
+        "alt": "Photo of London"
+      }
+    },
+    {
+      "card": {
+        "title": "New York",
+        "address": "Somewhere in Dumbo",
+        "src": "http://17776-presscdn-0-6.pagely.netdna-cdn.com/wp-content/uploads/2016/08/Bangalore_thumb.jpg",
+        "alt": "Photo of New York"
+      }
+    },
+    {
+      "card": {
+        "title": "Denver",
+        "address": "¯\\_(ツ)_/¯",
+        "src": "http://17776-presscdn-0-6.pagely.netdna-cdn.com/wp-content/uploads/2016/08/Bangalore_thumb.jpg",
+        "alt": "Photo of Denver"
+      }
+    }
+  ]
+}

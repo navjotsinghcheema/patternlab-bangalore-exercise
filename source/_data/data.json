@@ -1,4 +1,22 @@
 {
   "label": "default label",
-  "id": "default-id"
+  "id": "default-id",
+  "required": "This field is required",
+  "card": {
+    "address": "Lorem St, Ipsum Town",
+    "src": "http://placekitten.com/360/250",
+    "alt": "Cute kitten",
+    "title": "Default title"
+  },
+  "addresses": [
+    {
+      "card": {}
+    },
+    {
+      "card": {}
+    },
+    {
+      "card": {}
+    }
+  ]
 }
