@@ -12,7 +12,7 @@
   overflow: hidden;
   padding: 0 1rem;
   text-align: center;
-	
+
   a {
     color: inherit;
     text-decoration: underline;
@@ -55,7 +55,7 @@
  * Slidedown animation
  */
 @keyframes slideDown {
-  0%   {
+  0% {
     max-height: 0;
     padding: 0;
   }
@@ -74,7 +74,6 @@
   align-items: center;
   background: rgba(0, 0, 0, 0.7);
   border-radius: $border-radius;
-  border-radius: $border-radius;
   display: block;
   display: flex;
   flex-direction: column;
@@ -82,29 +81,28 @@
   justify-content: center;
   left: 0;
   padding: 1em;
-  padding: 1em;
   position: relative;
   text-align: center;
   top: 0;
   width: 100%;
-	
+
   &--is-hidden {
     display: none;
   }
-	
+
   .c-tile-grid__primary & {
     position: absolute;
   }
-	
+
   .c-tile-list__item & {
     position: absolute;
   }
-	
+
   .c-section & {
     position: absolute;
   }
 }
- 
+
 /**
  * Overlay Intro
  */

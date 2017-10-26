@@ -42,7 +42,7 @@ progress[value]::-webkit-progress-bar {
 }
 
 .anim::-moz-progress-bar {
-  -moz-transition: width 4s ease;
+  -moz-transition: width 4s ease; // stylelint-disable-line
 }
 
 .anim::-webkit-progress-value {

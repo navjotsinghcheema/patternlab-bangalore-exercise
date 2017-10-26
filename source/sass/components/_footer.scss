@@ -19,12 +19,13 @@
  */
 .c-footer__info {
   max-width: 40em;
-	
+
   a {
     color: $color-gray-15;
     text-decoration: underline;
-		
-    &:hover, &:focus {
+
+    &:hover,
+    &:focus {
       text-decoration: none;
     }
   }

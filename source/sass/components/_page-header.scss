@@ -11,7 +11,7 @@
   padding: 1rem 0 0.5rem;
   position: relative;
 
-  &:after {
+  &::after {
     background: $color-gray-35;
     bottom: 0;
     content: '';

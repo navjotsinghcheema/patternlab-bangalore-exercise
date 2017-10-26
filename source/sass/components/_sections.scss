@@ -34,7 +34,7 @@
   margin-bottom: 1.5rem;
   position: relative;
 
-  &:after {
+  &::after {
     background: $color-gray-35;
     content: '';
     display: block;
@@ -51,7 +51,7 @@
  * Section block
  */
 .c-tile-grid {
-  background: url(../../images/sample/hero-mountains.jpg) no-repeat 50% 50% $color-gray-73;
+  background: url('../../images/sample/hero-mountains.jpg') no-repeat 50% 50% $color-gray-73;
   background-size: cover;
 }
 
@@ -82,7 +82,7 @@
 .c-tile-grid__secondary {
   flex: 1;
 
-  @media all and (min-width: $bp-med){
+  @media all and (min-width: $bp-med) {
     padding: 0 0 0 1em;
   }
 }

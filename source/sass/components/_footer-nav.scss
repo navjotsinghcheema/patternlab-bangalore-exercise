@@ -16,10 +16,10 @@
 .c-footer-nav__list {
   display: flex;
   flex-direction: column;
-	
+
   @media all and (min-width: $bp-small) {
     flex-direction: row;
-  }	
+  }
 }
 
 /**
@@ -27,7 +27,7 @@
  */
 .c-footer-nav__item {
   width: 50%;
-	
+
   @media all and (min-width: $bp-small) {
     width: inherit;
   }
@@ -41,8 +41,9 @@
   display: block;
   font-weight: bold;
   padding: 1rem 2rem 1rem 0;
-	
-  &:hover, &:focus {
+
+  &:hover,
+  &:focus {
     color: $color-gray-35;
   }
 }

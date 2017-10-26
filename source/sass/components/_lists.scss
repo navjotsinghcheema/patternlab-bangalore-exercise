@@ -18,7 +18,7 @@
   li {
     margin: 0 0.4rem $space 0;
   }
-	
+
   a {
     font-size: 1.6em;
   }
@@ -90,10 +90,10 @@
 /**
  * Tile list
  */
-.c-tile-list{
+.c-tile-list {
   display: flex;
   flex-direction: column;
-	
+
   @media all and (min-width: 55rem) {
     flex-direction: row;
     flex-wrap: wrap;
@@ -103,16 +103,16 @@
 /**
  * Tile list item
  */
- 
+
 .c-tile-list__item {
   margin-bottom: 1em;
   position: relative;
   width: 100%;
-	
+
   &:nth-child(2n) {
     padding-right: 0;
   }
-	
+
   @media all and (min-width: 55rem) {
     margin: 0;
     padding: 0 1em 1em 0;
