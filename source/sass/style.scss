@@ -3,3 +3,8 @@
  * No style definitions should be made here, only `@import`
  */
 @import 'normalize/import-now';
+@import '01-atoms/atoms';
+@import '02-molecules/molecules';
+@import '03-organisms/organisms';
+@import '04-templates/templates';
+@import '05-pages/pages';
